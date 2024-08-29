@@ -1,0 +1,238 @@
+
+https://portal.azure.com/
+Start with an Azure free trial
+sign in
+try azure for free
+fill the form
+
+Virtualization
+---------------
+	virtualization is a technology that can be used to represent a servers and other physical machines works on the os splits the resources between the operations like installing 2 os in the same machine which shares the same ram cloud is the resource accessed from the service provide it does not require service from the local machine
+
+
+types of hyper wiser
+---------------------
+
+type 1:
+---------
+ - oracle
+ - Microsoft hyper V
+ - itrix
+
+type 2:
+-------
+ - VMware
+ - workstation
+ - VMware fusion
+ - oracle virtual box
+
+Application virtualization:
+---------------------------
+ - network
+ - desktop
+ - storage
+ - application
+ - server
+
+cloud computing:
+----------------
+	using on demand services using internet with the help of cloud service providers like AWS
+
+how IT works?
+-------------
+	capital expenditure - capex => mudhaledu like pre paid sim
+	the service provider like godady, zoho and so on
+	opex - operational expenditure - billing for the things that we used like post paid sims this is used in cloud computing
+
+AWS first cloud service provider
+Azure
+google cloud
+
+Cloud models
+-------------
+	private - only we can able to access the service
+	public - everyone can able to access the service
+	hybrid - combination of public and private 
+
+Azure
+-----
+	Azure is a computing platform and online portal that allows you to access and manage cloud services and resources launched on Feb 1 2010
+free to start and need to switch to the pay as go model
+
+Datacenter 
+-----------
+	it is physical building that contains the severs like data server, network sever ...
+	colling system
+	uninterrupted internet and power
+	PDU
+	data Engineering and network Engineering will be there to fix the issues in the DC
+
+available zone
+--------------
+	Available zone is a unique physical location within Azure region
+
+	it is used to reduce the up time
+
+	it act as proxy servers which act as a inter mediate between the cloud service provider and the end user when a user request for a data from the cloud if the cloud it not reachable the data is fetched from the backup server it is called as available zone
+
+Example
+-------
+	if DC 1 is busy the data is fetched from the nearby DC 2
+
+
+In azure there are more than 54 DC are available 
+and more then 200 services
+
+Azure Budget
+------------
+Azure Budget is a tool by Microsoft to help the user to monitor the budget spend by them over the month or a period of time
+As a cost management solution helps
+
+
+types of budget
+---------------
+forecast
+actual
+
+steps for creating Budget
+-------------------------
+1.Cost management and billing
+2.budgets
+3.add
+4.give the name for the budget
+5.fill the form
+6.budget amount
+7.choose actual of forecast budget
+8.if forecast give the percentage like 80%
+9.give the mail send the alert to the mail
+10.language preference
+
+Types of Services
+------------------
+IAAS - Infrastructure as a service
+PAAS - Platform as a service
+SAAS - Software as a service
+DAAS - Database as a service
+
+steps for creating resource group
+---------------------------------
+resource group
+create
+resource region DC
+review + create
+create
+
+datacenter available 42
+in future 54
+
+create vm
+----------
+virtual machine
+create
+azure vm
+bind resource group or create one
+identification for the virtual machine
+the resource and the resource region must be the same
+choose the iso image
+
+load balancer types
+-------------------
+	* internal
+	* external
+
+creating load balancer
+----------------------
+create a virtual machine for ubuntu
+open the ubuntu terminal 
+past the code 
+open load balancer and create one based on the instruction given in the pdf
+
+
+storage
+-------
+five type of storage services
+1.blob - large volume of file like binary files(image, audio, video) (5TB free) can able to store structured and unstructured files
+2.table - to store structured data
+3.queue - specially used for message storage and notification storage
+4.file - creating additional storage area 
+5.disk - can able to virtualize disk storage for our need
+
+creating storage account
+-------------------------
+storage account
+create
+res_group
+storage account name
+region
+redundancy(backup) -geo
+review + create
+types of tire
+	1.hot - 14day catch
+	2.cool - 1month catch
+	3.cold - 2month catch
+blob creation
+-------------
+left panel - storage browser - blob container
+file share
+----------
+left panel - storage browser - file share
+add file share
+name for it
+select
+connect
+choose windows
+show script
+copy and past it in the win power shell
+
+crating queue
+-------------
+queue
+name it
+add message
+set expiry
+create
+
+create table 
+------------
+similar procedure
+
+----------
+create virtual machine
+windows 
+
+container service
+------------------
+it is a packet of software's that contains all the necessary element to run on all the environment
+to run batch jobs
+to do group of works without the help of server
+
+Virtual network
+----------------
+virtual network 
+create
+security -> Enable Azure Firewall enable
+
+
+IOT hub
+-------
+
+
+data bricks
+-----------
+it is a Apache based analytics platform
+data science engineer's analyst 
+	1.apache spark
+		-> note book
+			we can able to process with our preferred language
+			switching programming language is easy
+			it has multiple cells
+		-> big data
+			process data
+			transfer the data 
+	2.ETL - Extra Transform Load
+		source to destination transfer
+		Apache spark is used to perform this transform
+	3.machine learning
+		training models
+	4.SQL Editor
+	5.Collaborations
